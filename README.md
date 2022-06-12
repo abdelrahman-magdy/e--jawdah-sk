@@ -1,3 +1,25 @@
+# E-jawdah Task
+## link project(https://e-jawdah-task.netlify.app/)
+## 
+#what i did
+- [x] [make it done] ( task )
+- [x] [build ui]
+- [x] [redux] (state management)
+- [x] [react-init] (to handle localization)
+<!-- - [x] [vuex](https://composition-api.vuejs.org/) -->
+- [x] [Structure] (assets/ components / utilies/ container )
+- [x] [style] ( css module/ BEM methodology)
+- [ ] [Responsive]
+- [ ] [lazy loading] [ by Loading attribute ]
+- [ ] [React router]
+- [ ] [ESLint]
+- [ ] Unit test
+
+#improvements
+- [x] [Skeleton] ( placeholder loading )
+- [x] [make it good] ( task )
+- [ ] [lazy loading] ( page in routing )
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
