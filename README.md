@@ -16,8 +16,8 @@
 - [ ] Unit test
 
 #improvements
-- [x] [Skeleton] ( placeholder loading )
-- [x] [make it good] ( task )
+- [ ] [Skeleton] ( placeholder loading )
+- [ ] [make it good] ( task )
 - [ ] [lazy loading] ( page in routing )
 
 # Getting Started with Create React App
