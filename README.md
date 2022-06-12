@@ -8,7 +8,7 @@
 - [x] [react-init] (to handle localization)
 <!-- - [x] [vuex](https://composition-api.vuejs.org/) -->
 - [x] [Structure] (assets/ components / utilies/ container )
-- [x] [style] ( css module/ BEM methodology)
+- [x] [style] ( scss module/ BEM methodology)
 - [ ] [Responsive]
 - [ ] [lazy loading] [ by Loading attribute ]
 - [ ] [React router]
