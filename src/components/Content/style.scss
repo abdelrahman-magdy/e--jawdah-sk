@@ -1,0 +1,27 @@
+.content{
+    margin: 20px;
+    &_tabs{
+        display: flex;
+        padding: 0;
+        list-style: none;
+        &_item{
+            font-size: 2rem;
+            padding: 10px;
+            margin-inline-end: 20px;
+            border: 1px solid transparent;
+            border-bottom: 4px solid transparent;
+            &.active{
+                color: #793699;
+                font-weight: bold;
+                border-color: #ccc;
+                border-bottom-color: #483bc8;
+            }
+
+        }
+    }
+    &-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        margin-inline: calc( -10% / 6 );
+    }
+}

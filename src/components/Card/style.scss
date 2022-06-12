@@ -1,0 +1,108 @@
+.card{
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+    padding: 2rem 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    &_header{
+        display: flex;
+        justify-content: space-between;
+        &_title{
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        &_btn{
+            &:first-child{
+                margin-inline-end: 1rem;
+            }
+            background-color: #e9effd;
+            border: 1px solid #e9effd;
+            color: #000;
+            cursor: pointer;
+            padding: 0.5rem;
+            &:hover{
+                background-color: #ccc;
+                color: #fff;
+            }
+        }
+
+    }
+}
+.card{
+    &_tags{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 1rem;
+    }
+    &_tag{
+        margin-inline-end: 1.4rem;
+        color: #000;
+        padding: 0.7rem 0.5rem;
+        font-size: 1.2rem;
+        span:first-child{
+            font-weight: 500;
+        }
+        span:last-child{
+            font-weight: 700;
+        }
+        &.active{
+            background-color: #f1faf1;
+            span:last-child{
+                color:#009835;
+            }
+        }
+        &.expired{
+            background-color: #f1f1f1;
+            span:last-child{
+                color:#848484;
+            }
+        }
+        &.renewal{
+            background-color: #fff1e5;
+            span:last-child{
+                color: #ff6800;
+            }
+        }
+    }
+}
+
+.card_details{
+    display: flex;
+    justify-content: start;
+    margin-top: 2rem;
+    &_item{
+        display: flex;
+        align-items: flex-start;
+        margin-inline-end: 7rem;
+    }
+    &_content{
+        margin-inline-start: 0.5rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    &_title{
+        color: #9d9d9d;
+        padding-top: 1rem;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    &_value{
+        font-size: 1.4rem;
+        font-weight: 500;
+        text-align: start;
+    }
+}
+
+.card_footer{
+    margin-top: 2rem;
+    text-align: start;
+    &_btn{
+        background-color: #d5e1fc;
+        color: #2b67ef;
+        border: none;
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding: 1.5rem 3rem;
+    }
+}
